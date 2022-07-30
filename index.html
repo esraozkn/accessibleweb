@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <title>accessible web</title>
+    <link href="style.css" rel="stylesheet" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="description" content="">
+</head>
+
+<body>
+<div class="header" role="banner" aria-label="header-section">
+        <img class="logo" src="images/logo2.png" alt="logo">
+    <div class="suche" role="search" aria-label="Suchleiste">
+        <input type="search" id="suche" placeholder="Suche">
+        <button type="submit">Suche</button>
+    </div>
+</div>
+<div class="navigation" role="navigation" aria-label="Menü">
+    <ul>
+        <li><a href="#">Eins</a></li>
+        <li><a href="#">Zwei</a></li>
+        <li><a href="#">Drei</a></li>
+        <li><a href="#">Vier</a></li>
+    </ul>
+</div>
+<div class="container">
+<div class="content" role="main" aria-label="Hauptinformationen">
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    <div role="button" aria-label="accordion" aria-expanded="true">
+        <details role="group" aria-labelledby="accordion-header-1" class="accordion">Text
+        <summary>Textabschnitt 1</summary></details>
+        <details role="group" class="accordion" aria-labelledby="accordion-header-2">Text
+        <summary>Textabschnitt 2</summary></details>
+        <details role="group" class="accordion" aria-labelledby="accordion-header-3">Text
+        <summary>Textabschnitt 3</summary></details>
+        <br>
+    </div>
+</div>
+<div class="seiten-content" role="complementary" aria-label="weitere Informationen">
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+</div>
+</div>
+<div class="formular" role="form" aria-label="Formular zum ausfüllen">
+    <label for="vorname">Vorname</label><br>
+    <input type="text" id="vorname" name="vorname"><br>
+    <label for="nachname">Nachname</label><br>
+    <input type="text" id="nachname" name="nachname"><br>
+    <label for="text">Kommentar</label><br>
+    <textarea id="text"></textarea><br>
+    <label for="datei">Bild hochladen</label><br>
+    <input type="file" id="datei" name="upload"><br>
+    <br>
+    <input type="checkbox" id="vehicle1" name="vehicle1">
+    <label for="vehicle1">Ich habe die AGBs gelesen und bin einverstanden.</label>
+    <br>
+    <input type="submit" value="Abschicken">
+</div>
+<div class="footer" role="contentinfo" aria-label="Fußzeile">
+    <a class="a" href="#">Impressum</a>
+    <a class="b" href="#">Datenschutzverordnung</a>
+    <a class="c" href="#">Kontakt</a>
+    <p class="d">© Copyright Esra Oezkan</p>
+</div>
+</body>
+</html>
