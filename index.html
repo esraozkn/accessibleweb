@@ -7,7 +7,6 @@
     <meta charset="utf-8" />
     <meta name="description" content="">
 </head>
-
 <body>
 <div class="header" role="banner" aria-label="header-section">
         <img class="logo" src="images/logo2.png" alt="logo">
@@ -58,13 +57,13 @@
         invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
         duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
-    <div role="button" aria-label="accordion" aria-expanded="true">
-        <details role="group" aria-labelledby="accordion-header-1" class="accordion">Text
-        <summary>Textabschnitt 1</summary></details>
-        <details role="group" class="accordion" aria-labelledby="accordion-header-2">Text
-        <summary>Textabschnitt 2</summary></details>
-        <details role="group" class="accordion" aria-labelledby="accordion-header-3">Text
-        <summary>Textabschnitt 3</summary></details>
+    <div>
+        <details role="group" aria-labelledby="accordion-header1" class="accordion" aria-expanded="false"><p>Text</p>
+        <summary role="button" aria-expanded="true" tabindex="0">Textabschnitt 1</summary></details>
+        <details role="group" class="accordion" aria-labelledby="-accordion-header2" aria-expanded="false"><p>Text</p>
+        <summary role="button" aria-expanded="true" tabindex="0">Textabschnitt 2</summary></details>
+        <details role="group" class="accordion" aria-labelledby="accordion-header3" aria-expanded="false"><p>Text</p>
+        <summary role="button" aria-expanded="true" tabindex="0">Textabschnitt 3</summary></details>
         <br>
     </div>
 </div>
@@ -97,8 +96,8 @@
     <label for="datei">Bild hochladen</label><br>
     <input type="file" id="datei" name="upload"><br>
     <br>
-    <input type="checkbox" id="vehicle1" name="vehicle1">
-    <label for="vehicle1">Ich habe die AGBs gelesen und bin einverstanden.</label>
+    <input type="checkbox" id="box" name="checkbox">
+    <label for="box">Ich habe die AGBs gelesen und bin einverstanden.</label>
     <br>
     <input type="submit" value="Abschicken">
 </div>
