@@ -1,6 +1,6 @@
 # accessibleweb
 
-Accessibleweb enstand im Rahmen der Bachelorarbeit "Die Unterstützung der Barrierefreiheit bei der Implementierung von Webseiten".
+Accessibleweb enstand im Rahmen der Bachelorarbeit "Die Unterstützung der Barrierefreiheit bei der Implementierung von Webseiten". 
 Die Webseite wurde so implementiert, dass alle Elemente für einen Screenreader zugänglich sind. 
 Die Webseite wurde unterteilt in mehrere Bereiche (Landmark-Roles) und mit ARIA-Rollen versehen, die dafür da sind, den assistiven Technologien die Information weiterzugeben, um was für eine Rolle es sich bei dem Element handelt. 
 
